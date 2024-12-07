@@ -1,0 +1,22 @@
+# venv creation
+In Linux
+    python3 -m venv your environment_name_folder(I suggest you to use env or venv or .venv)
+In Windows
+    python3 -m venv your environment_name_folder(I suggest you to use env or venv or .venv)
+    or
+    py -m venv your environment_name_folder(I suggest you to use env or venv or .venv)
+
+# venv activate
+In Linux
+    source .venv/bin/activate
+in Windows
+    cd .venv
+       cd Scripts
+          powershell, cmd, git bash,....
+            activate.
+
+# venv must be ignored and we use requirements.txt
+# for use requirements.txt, I use this command:
+    pip install -r .\requirements.txt
+
+
